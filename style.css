@@ -1,0 +1,92 @@
+/*########## Defaults ##############*/
+nav, 
+header, 
+footer {
+  display: block;
+}
+
+body {
+  background-image: url(bodyBackground.jpg);
+}
+
+/************ NAV BAR ************/
+
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+ul.topnav {
+  margin: auto;
+  text-align: center;
+}
+
+ul.topnav li {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+ul.topnav li a {
+  color: #fff;
+  display: block;
+  padding: 15px;
+  text-decoration: none;/*used to remove underline in link*/
+}
+
+ul.topnav li a:hover {
+  color: red;
+}
+
+
+/******** Main Header********/
+
+div.middleHead {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}/*The above is used to center the header in the center of the page*/
+
+h1.mainHeader {
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+h2.mainDescript {
+  color: white;
+  margin: 0px 300px 0px 300px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
