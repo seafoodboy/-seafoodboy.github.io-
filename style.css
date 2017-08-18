@@ -14,7 +14,7 @@ header {
    height: 984px;
    min-height: 500px;
    width: 100%;
-   background: black url(/images/bodyBackground.jpg);
+   background: black url(bodyBackground.jpg);
    text-align: center;
    overflow: hidden;
    background-repeat:no-repeat;
@@ -94,7 +94,7 @@ ul.topNavBar li a:hover {
    width: 100%;
    text-align: center;
    overflow: hidden;
-   background: url(/images/aboutBackground.jpg) no-repeat;
+   background: url(aboutBackground.jpg) no-repeat;
    background-size: cover;
 }
 
