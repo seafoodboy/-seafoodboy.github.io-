@@ -1,66 +1,106 @@
 /*########## Defaults ##############*/
-nav, 
-header, 
-footer {
-  display: block;
-}
 
-body {
-  background-image: url(bodyBackground.jpg);
-}
-
-/************ NAV BAR ************/
-
-nav {
-  width: 100%;
+body { 
+  background: blue;
   margin: 0;
 }
+    		
 
-ul.topnav {
-  margin: auto;
-  text-align: center;
+
+/*############ Main Header##########*/
+
+header {
+   position: relative;
+   height: 984px;
+   min-height: 500px;
+   width: 100%;
+   background: black url(/images/bodyBackground.jpg);
+   text-align: center;
+   overflow: hidden;
+   background-repeat:no-repeat;
+   background-size: cover;
 }
 
-ul.topnav li {
-  text-align: center;
-  position: relative;
-  display: inline-block;
-}
-
-ul.topnav li a {
-  color: #fff;
-  display: block;
-  padding: 15px;
-  text-decoration: none;/*used to remove underline in link*/
-}
-
-ul.topnav li a:hover {
-  color: red;
-}
-
-
-/******** Main Header********/
-
-div.middleHead {
+div.rowBanner {
   height: 100%;
   width: 100%;
   display: flex;
-  position: fixed;
+  position: absolute;
   align-items: center;
   justify-content: center;
-}/*The above is used to center the header in the center of the page*/
+}
+/*The above is used to center the header in the center of the page*/
+
+.bannerText {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 15%;
+}
 
 h1.mainHeader {
   color: white;
-  margin: 0;
-  text-align: center;
-  padding: 10px;
 }
 
 h2.mainDescript {
   color: white;
-  margin: 0px 300px 0px 300px;
+  margin: 0px 450px 0px 450px;
   text-align: center;
+}
+
+/*############# NAV BAR ###########*/
+
+nav {
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+.navBanner {
+  display: flex;
+  position: fixed;
+}
+
+ul.topNavBar {
+  margin: auto;
+  text-align: center;
+}
+
+ul.topNavBar li {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  
+}
+
+ul.topNavBar li a {
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px;
+  text-decoration: none; /*used to remove underline in link*/
+}
+
+ul.topNavBar li a:hover {
+  color: red;
+}
+
+
+/*############ About ##########*/
+
+.aboutMePage {
+   position: relative;
+   height: 592px;
+   min-height: 500px;
+   width: 100%;
+   text-align: center;
+   overflow: hidden;
+   background: url(/images/aboutBackground.jpg) no-repeat;
+   background-size: cover;
+}
+
+.aboutMeDescript {
+   color: white;
+   
 }
 
 
@@ -72,9 +112,7 @@ h2.mainDescript {
 
 
 
-
-
-
+/*
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -88,5 +126,6 @@ h2.mainDescript {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+*/
 
 
